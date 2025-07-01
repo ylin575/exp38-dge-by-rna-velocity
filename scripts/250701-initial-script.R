@@ -1,6 +1,6 @@
 # 250701 initial script
 
-#> 1. load matrix
+#> 1. load matrix / seurat objects
 #> 2. QC
 #> 3. identify DGE
 #> 4. generate UMAP
@@ -13,3 +13,12 @@
 #> 9. filter the DGE-by-nearest-neighbors for surface proteins using
 #>    verified annotation databases: UniProt, RCSB, GO terms database
 #> 10. connect to antibody databases to identify available antibodies
+
+
+# load libraries
+library(Seurat)
+
+
+
+#1 load seurat objects
+
