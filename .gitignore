@@ -8,6 +8,8 @@
 !scripts/**
 
 
-# ignore .DS_Store seen anywhere in the directory
+# ignore .DS_Store seen anywhere in the directory and subdirectories
+.DS_Store
 **/.DS_Store
+
 .Rproj.user
